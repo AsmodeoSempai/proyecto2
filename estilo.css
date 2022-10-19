@@ -5,6 +5,11 @@
     box-sizing: border-box;
     
 }
+
+body{
+
+    background-color: #205375;
+}
 .seccion_1{
     position: relative;
     
@@ -61,6 +66,13 @@ li :hover{
 }
 
 
+.seccion2{
+    
+    max-width: 600px;
+    margin: auto;
+    
+    
+}
 
 .cajaCanchas{
     display: flex;
@@ -73,16 +85,22 @@ li :hover{
 .contenedor_jumbotron{
     display: flex;
     flex-direction: column;
-    background-color: #205375;
     width: 100%;
     height: 42rem;
     align-items: center;
     color: black;
 }
 .fondo{
-    width: 600px;
+    width: 100%;
     height: 428px;
     background-image: url(./img/cancha.jpg);
     justify-content: center;
     
+}
+.cajaForm{
+    width: 100%;
+    position: relative;
+}
+.nombreinput{
+    width: 100%;
 }
