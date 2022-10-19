@@ -8,12 +8,55 @@
     <link rel="stylesheet" href="./estilo.css">
 </head>
 <body>
-    <header>
+    <div class="seccion_1">
+        <header class="menu">
+            <ul class="lista_menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Torneo</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+            <nav class="caja_logo">
+                <img class="logo" src="./img/logo.svg" alt="logo"/>
+                <h1 class="nombre"><a href="#">Canchas de entrenamiento</a></h1>
+            </nav>
+            <ul class="lista_menu_1">
+                <button class="boton_sesion">
+                    <li><a href="#">Iniciar Sesión</a></li>
+                </button>
+                <li><a href="#">Crear Cuenta</a></li>
+            </ul>
+            <img id="menu" src="./img/menu.svg" alt="menu">
+        </header>
+    </div> 
+    <div class="seccion2">       
+        <section class="contenedor_jumbotron">
+            <nav class="fondo">
+                <div class="cajaCanchas">
+                    <label for="CanchasOpciones">Cancha/Court</label>
+                    <select name="CanchasOpciones" id="CanchasOpciones">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+            </nav>
+            <div class="cajaForm">
+                <form>
+                    <input class="nombreinput" type="text">
+                    <input type="time" step="18000">
 
-    </header>
-    <main>
+                </form>
+           </div>
+        </section>
+        
 
-    </main>
+
+
+
+    </div>
+
+    
     <footer>
         
     </footer>
