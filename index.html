@@ -11,19 +11,18 @@
     <div class="seccion_1">
         <header class="menu">
             <ul class="lista_menu">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Torneo</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li class="dheader"><a href="#">Inicio</a></li>
+                <li class="dheader"><a href="#">Tornament</a></li>
+                <li class="dheader"><a href="#">Contact</a></li>
             </ul>
             <nav class="caja_logo">
-                <img class="logo" src="./img/logo.svg" alt="logo"/>
                 <h1 class="nombre"><a href="#">Canchas de entrenamiento</a></h1>
             </nav>
             <ul class="lista_menu_1">
                 <button class="boton_sesion">
-                    <li><a href="#">Iniciar Sesión</a></li>
+                    <li class="dheader"><a href="#">Log In</a></li>
                 </button>
-                <li><a href="#">Crear Cuenta</a></li>
+                <li class="dheader" ><a href="#">Create Account</a></li>
             </ul>
             <img id="menu" src="./img/menu.svg" alt="menu">
         </header>
@@ -39,15 +38,49 @@
                         <option value="3">3</option>
                         <option value="4">4</option>
                     </select>
+                    <input type="date">
                 </div>
             </nav>
             <div class="cajaForm">
                 <div class="cajaNombre">
-                    <form>
-                        <input class="nombreinput" type="text">
-                        
+                    <div>
 
-                    </form>
+                    </div>
+                    <div class="cajanombreinput">
+                        <input class="Player" placeholder="PLAYER 1" type="text">
+                    </div> 
+                    <div class="cajanombreinput2">
+                        <input class="Player" placeholder="PLAYER 2" type="text">
+                    </div>    
+                    <div class="cajatime">
+                        <select name="CanchasOpciones" id="CanchasOpciones">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                        <select name="CanchasOpciones" id="CanchasOpciones">
+                            <option value="1">00</option>
+                            <option value="2">30</option>                            
+                        </select>
+                        <select name="CanchasOpciones" id="CanchasOpciones">
+                            <option value="am">AM</option>
+                            <option value="pm">PM</option>                            
+                        </select>
+                    </div> 
+                    <div class="cajaagregar">   
+                        <button class="agregarboton">submit</button>
+                    </div>     
+
+                    
                 </div>
                 
             </div>

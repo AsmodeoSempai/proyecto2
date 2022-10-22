@@ -3,25 +3,27 @@
     border: 0%;
     padding: 0%;
     box-sizing: border-box;
-    
+    color: black;
 }
-
 body{
-
     background-color: #205375;
 }
 .seccion_1{
     position: relative;
-    
 }
 .menu{
     display: flex;
     height: 75px;
     width: 100%;
-    background-color: #112B3C;
+    background-color: grey;
     align-items: center;
     justify-content: space-between;
     padding: 16px;
+}
+.lista_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .caja_logo{
     display: flex;
@@ -33,27 +35,23 @@ body{
 .nombre{
     font-size: medium;
     font-weight: 600;
+    color: white;
 }
 .nombre :hover{
     cursor: pointer;
     color: white;
 }
-.lista_menu{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 .lista_menu_1{
     display: flex;
     align-items: center; 
 }
-li{
+.dheader{
     list-style: none;
     margin: 0 30px;
     font-size: 15px;
     font-weight: 600;
 }
-li :hover{
+.dheader :hover{
     color: white;
     cursor: pointer;
 }
@@ -64,24 +62,14 @@ li :hover{
 #menu{
     display: none;
 }
-
-
 .seccion2{
-    
     max-width: 600px;
-    margin: auto;
-    
-    
+    margin: auto;  
 }
-
 .cajaCanchas{
     display: flex;
     justify-content: center;
 }
-
-
-
-
 .contenedor_jumbotron{
     display: flex;
     flex-direction: column;
@@ -95,12 +83,54 @@ li :hover{
     height: 428px;
     background-image: url(./img/cancha.jpg);
     justify-content: center;
-    
 }
 .cajaForm{
     width: 100%;
     position: relative;
 }
-.nombreinput{
-    width: 100%;
+.cajaNombre{
+    display: flex;
 }
+.cajanombreinput{
+    width: 40%; 
+}
+.cajanombreinput2{
+    width: 40%;
+}
+.Player{
+    padding: 10px;
+    font-size: 14px;
+    border-width: 1px;
+    border-color: #333029;
+    border-style: solid;
+    border-radius: 0px;
+    box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+.cajatime{
+    display: flex;
+}
+.agregarboton{
+    box-shadow: 0px 1px 0px 0px #1c1b18;
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color:#eae0c2;
+	border-radius:15px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:12px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.agregarboton:hover{
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	background-color:#ccc2a6;
+            }
+.agregarboton:active {
+	position:relative;
+	top:1px;
+            }
