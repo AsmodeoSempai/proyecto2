@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto2</title>
     <link rel="stylesheet" href="./estilo.css">
+    
 </head>
 <body>
     <div class="seccion_1">
@@ -24,7 +25,6 @@
                 </button>
                 <li class="dheader" ><a href="#">Create Account</a></li>
             </ul>
-            <img id="menu" src="./img/menu.svg" alt="menu">
         </header>
     </div> 
     <div class="seccion2">       
@@ -42,50 +42,40 @@
                 </div>
             </nav>
             <div class="cajaForm">
-                <div class="cajaNombre">
-                    <div>
-
-                    </div>
-                    <div class="cajanombreinput">
-                        <input class="Player" placeholder="PLAYER 1" type="text">
-                    </div> 
-                    <div class="cajanombreinput2">
-                        <input class="Player" placeholder="PLAYER 2" type="text">
-                    </div>    
-                    <div class="cajatime">
-                        <select name="CanchasOpciones" id="CanchasOpciones">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                            <option value="10">10</option>
-                            <option value="11">11</option>
-                            <option value="12">12</option>
-                        </select>
-                        <select name="CanchasOpciones" id="CanchasOpciones">
-                            <option value="1">00</option>
-                            <option value="2">30</option>                            
-                        </select>
-                        <select name="CanchasOpciones" id="CanchasOpciones">
-                            <option value="am">AM</option>
-                            <option value="pm">PM</option>                            
-                        </select>
-                    </div> 
-                    <div class="cajaagregar">   
-                        <button class="agregarboton">submit</button>
-                    </div>     
-
-                    
-                </div>
+                <form autocomplete="off" class="cajaNombre">
+                        <div class="cajanombreinput">
+                            <input class="Player" placeholder="PLAYER 1" type="text" id="player1">
+                        </div> 
+                        <div class="cajanombreinput2">
+                            <input class="Player" placeholder="PLAYER 2" type="text" id="player2">
+                        </div>    
+                        <div class="cajanombreinpu3">
+                            <input class="time" placeholder="TIME"  type="text" id="time">
+                        </div>
+                        <div class="cajaagregar">   
+                            <button type="button" class="agregarboton" id="agregarboton">submit</button>
+                        </div> 
+                </form>
                 
             </div>
+            <div class="cajaForm2">
+                <form autocomplete="off" class="cajaNombre2">
+                        <div class="Player1">
+                            <span>Player 1</span>
+                        </div> 
+                        <div class="Player1">
+                            <span>Player 2</span>
+                        </div>    
+                        <div class="time1">
+                           <span>Time</span>
+                        </div>
+                </form>
+            </div> 
         </section>
-        
+        <section class="contenedor_jumbotron" id="cajaApartado">
+            
+            
+        </section>
 
 
 
